@@ -1,5 +1,3 @@
-pub mod oop;
-pub mod typestate;
 pub struct Post {
     state: Option<Box<dyn State>>,
     content: String,

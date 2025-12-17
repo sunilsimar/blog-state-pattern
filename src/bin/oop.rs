@@ -1,4 +1,4 @@
-use blog::Post;
+use blog::oop::Post;
 
 fn main() {
     let mut post = Post::new();
